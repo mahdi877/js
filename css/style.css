@@ -1,0 +1,102 @@
+body{
+    Background-image:
+        Linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+        Linear-gradient(127deg, black, black 70.71%),
+        Linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+.photo-1{
+    width: 100%
+}
+.hcc{
+    color: white;
+    font-family:"lato,sans-serif";
+    font-size:60px;
+    text-shadow:5px 5px 5px #000;
+    text-decoration:none;
+}
+.point{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.courses{
+    display: flex;
+    justify-content: space-evenly;
+}
+.video{
+    display: flex;
+    justify-content: center;
+}
+header{
+    display: flex
+}
+h3{
+    color: white;
+    font-family:"lato,sans-serif";
+    font-size:60px;
+    text-shadow:5px 5px 5px #000;
+    text-decoration:none;
+    margin: 30px;
+}
+h4{
+    font-family: "lato,sans serif";
+    font-size:60px;
+    text-shadow:5px 5px 5px #000;
+}
+.feedback{
+    display: flex;
+    justify-content: center;
+}
+form{
+    color: white;
+    display: grid;
+    justify-content: center;
+}
+.label{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:"lato,sans-serif";
+    font-size:30px;
+    text-shadow:5px 5px 5px #000;
+}
+.button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(111, 111, 235);
+    border-color: rgb(111, 111, 235);
+}
+h1{
+    color: white;
+    font-size: 6em;
+    font-family: 'lato', sans-serif;
+    text-shadow:5px 5px 5px #000;
+    text-decoration:none;
+    display: flex;
+    justify-content: center;
+   
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../res/webdev3.png);
+    height: 550px;
+    width: 100%;
+    font-size: 50;
+}
+.courses-photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../res/webdev3.png);
+    height: 550px;
+    width: 100%;
+    font-size: 50;
+}
+textarea{
+    font-size: 20px;
+}
